@@ -1,2 +1,1 @@
-# eth-smart-contracts
-smart contracts  
+Learning
