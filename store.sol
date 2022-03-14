@@ -21,7 +21,7 @@ contract Store {
         people.push(People(_num, _name));
         nametoNumber[_name] = _num;
     }
-
+    // view functions don't make state change 
     function retrieve() view public returns(uint256) {
         return number;
     }
